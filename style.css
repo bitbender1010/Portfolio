@@ -1,0 +1,217 @@
+body {
+    background: #161729;
+    padding: 10px;
+}
+
+.logo-cover {
+    width: 50px;
+    height: 50px;
+    /*border: 2px solid red;*/
+}
+
+.logo-cover img {
+    width: 100%;
+    height: 100%;
+}
+
+/* text color */
+.main-name, .main-occupation, .main-purpose {
+    color: white;
+}
+
+.main-name {
+    font-family: 'Gugi', cursive;
+    font-size: 35px;
+}
+
+.main-occupation {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.main-purpose {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 100;
+    width: 350px;
+    padding: 10px 0px;
+}
+
+/* profile pic */
+.profilepic-cover {
+    width: 300px;
+    height: 430px;
+    z-index: 200;
+}
+
+.profilepic-cover img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* skills */
+.skills {
+    color: white;
+    font-family: 'Gugi', cursive;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/*stacks*/
+.stacks {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.stacks div {
+    border: 1px solid #D01090;
+    color: #D01090;
+    padding: 5px;
+    margin: 5px;
+    font-size: 10px;
+}
+
+/* resume */
+.resume {
+width: 135px;
+height: 40px;
+background: linear-gradient(76.34deg, #D01090 21.7%, #FF7A00 100%);
+border: none;
+outline: none;
+color: white;
+font-family: 'Gugi', cursive;
+font-size: 14px;
+cursor: pointer; 
+}
+
+/* Hire me*/
+.hire-me {
+width: 135px;
+height: 40px;
+border: none;
+outline: none;
+color: white;
+font-family: 'Gugi', cursive;
+font-size: 14px; 
+background: none;
+cursor: pointer; 
+}
+
+/*key frames*/
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-15px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.profilepic-cover {
+box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+    animation: float 3.5s ease-in-out infinite;
+}
+
+/*float position*/
+.sz img {
+    width: 100%;
+    height: 100%;
+}
+.one {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: -5%;
+    top: -470px;
+    border-radius: 30px;
+    z-index: -10;
+}
+
+.two {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    left: 53%;
+    top: -515px;
+    z-index: 200;
+}
+
+
+.three {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 48%;
+    top: -150px;
+    z-index: 200;
+}
+
+.six {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 52%;
+    top: -550px;
+    z-index: -10;
+}
+
+.four {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: -20%;
+    top: -300px;
+    z-index: 220;
+}
+
+.five {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 70%;
+    top: -550px;
+    z-index: 220;
+}
+
+/* Responsive */
+.love img {
+    width: 100%;
+    height: 100%;
+}
+
+.love {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+.socials {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.socials img {
+    width: 100%;
+    height: 100%;
+}
+
+.made {
+    font-family: 'Gugi', cursive;
+    position: relative;
+    top: 18px;
+    padding: 0px 7px;
+}
